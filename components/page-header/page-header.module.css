@@ -1,0 +1,17 @@
+.container {
+	width: 100%;
+	max-width: 1600px;
+	display: flex;
+	align-items: start;
+	padding: 56px 0;
+}
+
+.bg {
+	background-color: var(--primary);
+	padding: 12px 48px 2px 128px;
+	border-radius: 0 16px 16px 0;
+}
+
+.title {
+	text-transform: capitalize;
+}

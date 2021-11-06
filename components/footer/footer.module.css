@@ -1,0 +1,22 @@
+.footer {
+	width: 100vw;
+	background-color: var(--dark-grey);
+	display: flex;
+	justify-content: center;
+	padding: 56px 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 36px;
+}
+
+.link {
+	color: var(--light-one);
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	margin-right: 36px;
+}

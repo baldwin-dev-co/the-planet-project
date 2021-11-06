@@ -1,0 +1,10 @@
+.card_layout {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 16px;
+}
+
+.faq_layout {
+	columns: 360px 2;
+	column-gap: 24px;
+}
